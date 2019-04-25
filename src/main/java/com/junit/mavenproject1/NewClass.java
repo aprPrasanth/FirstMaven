@@ -9,8 +9,19 @@ package com.junit.mavenproject1;
  *
  * @author prasanth
  */
-public class NewClass {
+abstract class check {
+
+    public static void main(String[] args) {
+        System.out.println("No");
+    }
+
+}
+
+public class NewClass extends check {
+
     public static void main(String[] args) {
         System.out.println("Yes");
     }
+
+   
 }
